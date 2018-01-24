@@ -10,6 +10,7 @@ using Microsoft.Xna.Framework.Input;
 
 namespace BearGame
 {
+    // Comment one
     public class BadCoin : Coin
     {
         private Texture2D badSprite;
@@ -43,6 +44,9 @@ namespace BearGame
             sourceRectangle = new Rectangle(0, 0, COIN_TILES, COIN_TILES);
         }
 
+        /**
+        * Comment two
+         */
         public override void Draw(SpriteBatch spriteBatch)
         {            
             spriteBatch.Draw(badSprite, badRectangle, sourceRectangle, Color.White);            

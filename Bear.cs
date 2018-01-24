@@ -12,6 +12,7 @@ namespace BearGame
 {
     class Bear
     {
+        // Comment 3
         #region Fields
         // texture 2D and rectangles
         private Texture2D sprite;
@@ -26,6 +27,8 @@ namespace BearGame
 
         private int WINDOW_WIDTH;
         private int WINDOW_HEIGHT;
+        //Comment 5
+        //Comment 6
         //speed of bear and jumping
         const int BEAR_MOVE_AMOUNT = 4;
         private bool jumping = false;
