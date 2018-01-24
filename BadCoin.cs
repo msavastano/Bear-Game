@@ -29,6 +29,7 @@ namespace BearGame
 
         /**
         change 1
+        change 2
          */
         public override Rectangle CollisionRectangle
         {
