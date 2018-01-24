@@ -27,6 +27,9 @@ namespace BearGame
             LoadContent(contentManager, spriteName, x, y);
         }
 
+        /**
+        change 1
+         */
         public override Rectangle CollisionRectangle
         {
             get { return badRectangle; }
